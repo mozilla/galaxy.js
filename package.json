@@ -1,0 +1,28 @@
+{
+  "name": "galaxy.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "es6-promise": "latest"
+  },
+  "devDependencies": {
+    "chai": "^1.9.x",
+    "gulp": "^3.8.6",
+    "gulp-concat": "^2.3.4",
+    "gulp-markdox": "^0.1.0",
+    "jshint": "~0.9",
+    "mocha": "^1.18.x"
+  },
+  "engines": {
+    "node": ">=0.10.x",
+    "npm": ">=1.1.x"
+  },
+  "keywords": [
+    "galaxy",
+    "games",
+    "gaming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla/galaxy.js.git"
+  }
+}
