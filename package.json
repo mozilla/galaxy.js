@@ -2,7 +2,9 @@
   "name": "galaxy.js",
   "version": "0.0.1",
   "dependencies": {
-    "es6-promise": "latest"
+    "duo": "^0.8.1",
+    "es6-promise": "latest",
+    "duo-gulp": "0.0.1"
   },
   "devDependencies": {
     "chai": "^1.9.x",
@@ -19,7 +21,8 @@
   "keywords": [
     "galaxy",
     "games",
-    "gaming"
+    "gaming",
+    "mozilla"
   ],
   "repository": {
     "type": "git",

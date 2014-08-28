@@ -4,8 +4,13 @@ var markdox = require('gulp-markdox');
 
 
 gulp.task('docs', function () {
-  gulp.src('./galaxy.js')
+  gulp.src('./src/galaxy.js')
     .pipe(markdox())
     .pipe(concat('docs.md'))
     .pipe(gulp.dest('./docs'));
+});
+
+
+gulp.task('build', function () {
+  // Run duo here.
 });
