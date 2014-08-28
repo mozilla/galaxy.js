@@ -1,6 +1,6 @@
 
 
-<!-- Start /opt/galaxy-js/galaxy.js -->
+<!-- Start /opt/galaxy.js/src/galaxy.js -->
 
 galaxy
 
@@ -167,5 +167,5 @@ This method is throttled by the Galaxy API.
 * **String** *board* The slug of the game leaderboard.
 * **String** *increment* The number of points to increment by.
 
-<!-- End /opt/galaxy-js/galaxy.js -->
+<!-- End /opt/galaxy.js/src/galaxy.js -->
 

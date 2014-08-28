@@ -4,7 +4,9 @@
   "dependencies": {
     "duo": "^0.8.1",
     "es6-promise": "latest",
-    "duo-gulp": "0.0.1"
+    "map-stream": "^0.1.0",
+    "gulp-uglify": "^0.3.2",
+    "gulp-rename": "^1.2.0"
   },
   "devDependencies": {
     "chai": "^1.9.x",

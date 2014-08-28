@@ -11,7 +11,7 @@
 (function () {
 
 var gamepadController = require('kallaspriit/HTML5-JavaScript-Gamepad-Controller-Library@c38f53b:/gamepad.js');
-var Promise = require('../lib/promise-1.0.0.js');
+var Promise = require('http://s3.amazonaws.com/es6-promises/promise-1.0.0.js');
 
 /**
  * A simple drop-in JavaScript API to play multiplayer, web-based games
