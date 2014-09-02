@@ -1,4 +1,4 @@
-# galaxy.js
+![galaxy.js logo](images/logo.png?raw=true)
 
 A simple drop-in JavaScript API to play multiplayer, web-based games (with authentication, friends, leaderboards).
 
