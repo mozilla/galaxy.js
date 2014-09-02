@@ -11,17 +11,12 @@ var map = require('map-stream');
 gulp.task('compile', function () {
   gulp.src('./src/galaxy.js')
     .pipe(duo())
-    .pipe(gulp.dest('build'));
-});
-
-
-gulp.task('minify', ['compile'], function () {
-  gulp.src('./build/galaxy.js')
+    .pipe(gulp.dest('dist'))  // uncompressed
     .pipe(uglify())
     .pipe(rename(function (path) {
       path.extname = '.min.js';
     }))
-    .pipe(gulp.dest('build'));
+    .pipe(gulp.dest('dist'));  // minified
 });
 
 
@@ -33,11 +28,11 @@ gulp.task('docs', function () {
 });
 
 
-gulp.task('default', ['minify', 'docs']);
+gulp.task('default', ['compile', 'docs']);
 
 
 gulp.task('dev', function () {
-  gulp.watch('./src/galaxy.js', ['minify', 'docs']);
+  gulp.watch('./src/galaxy.js', ['compile', 'docs']);
 });
 
 

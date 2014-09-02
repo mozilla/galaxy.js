@@ -7,8 +7,8 @@ Used in conjunction with the [Galaxy API](https://github.com/mozilla/galaxy-api)
 
 ## Downloads
 
-* [galaxy.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/build/galaxy.js)
-* [galaxy.min.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/build/galaxy.min.js) (3.4k gzipped)
+* [galaxy.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/dist/galaxy.js)
+* [galaxy.min.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/dist/galaxy.min.js) (3.4k gzipped)
 
 
 ## Installation
@@ -24,10 +24,10 @@ To rebuild (compile and minify) the scripts while developing:
 
     gulp dev
 
-Two files will be written to the `build/` directory:
+Two files will be written to the `dist/` directory:
 
-* [galaxy.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/build/galaxy.js)
-* [galaxy.min.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/build/galaxy.min.js)
+* [galaxy.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/dist/galaxy.js)
+* [galaxy.min.js](https://raw.githubusercontent.com/mozilla/galaxy.js/master/dist/galaxy.min.js)
 
 Alternatively, to rebuild the files and documentation just once:
 
