@@ -24,7 +24,9 @@ gulp.task('compile', function () {
 
 gulp.task('docs', function () {
   // TODO: Make a `gulp-doxx` project.
-  exec('node_modules/doxx/bin/doxx --source ./src --target ./docs --ignore components', function (err, stdout, stderr) {
+  exec('node_modules/doxx/bin/doxx --source ./src --target ./docs --ignore components -- &&' +
+       'sed -i.bak \'s/brand">Doxx</brand">Documentation</g\' docs/*.html && ' +
+       'rm docs/*.bak', function (err, stdout, stderr) {
     if (stderr) {
       return console.error(stderr);
     }
