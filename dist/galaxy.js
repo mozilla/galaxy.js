@@ -107,7 +107,7 @@ var Promise = require('http://s3.amazonaws.com/es6-promises/promise-1.0.0.js');
  */
 function galaxy() {
   this.paused = false;
-  this.playing = true;
+  this.playing = false;
 }
 
 galaxy.version = '0.0.1';
