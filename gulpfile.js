@@ -2,9 +2,7 @@ var exec = require('child_process').exec;
 
 var chmod = require('gulp-chmod');
 var concat = require('gulp-concat');
-var ghPages = require('gulp-gh-pages');
 var gulp = require('gulp');
-var markdox = require('gulp-markdox');
 var rename = require('gulp-rename');
 var symlink = require('gulp-symlink');
 var uglify = require('gulp-uglify');

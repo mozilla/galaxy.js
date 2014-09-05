@@ -2,21 +2,21 @@
   "name": "galaxy.js",
   "version": "0.0.1",
   "dependencies": {
-    "duo": "^0.8.1",
-    "es6-promise": "latest",
-    "map-stream": "^0.1.0",
-    "gulp-uglify": "^0.3.2",
-    "gulp-rename": "^1.2.0"
   },
   "devDependencies": {
     "chai": "^1.9.x",
+    "doxx": "^0.7.4",
+    "duo": "^0.8.1",
+    "es6-promise": "latest",
     "gulp": "^3.8.6",
+    "gulp-chmod": "^1.1.1",
     "gulp-concat": "^2.3.4",
-    "gulp-markdox": "^0.1.0",
-    "jshint": "~0.9",
-    "mocha": "^1.18.x",
+    "gulp-rename": "^1.2.0",
     "gulp-symlink": "^1.1.0",
-    "gulp-chmod": "^1.1.1"
+    "gulp-uglify": "^0.3.2",
+    "jshint": "~0.9",
+    "map-stream": "^0.1.0",
+    "mocha": "^1.18.x"
   },
   "engines": {
     "node": ">=0.10.x",
