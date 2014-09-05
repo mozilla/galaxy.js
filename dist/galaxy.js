@@ -104,6 +104,7 @@ var Promise = require('http://s3.amazonaws.com/es6-promises/promise-1.0.0.js');
  *
  * @namespace
  * @module
+ * @exports galaxy
  */
 function galaxy() {
   this.paused = false;

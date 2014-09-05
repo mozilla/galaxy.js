@@ -1,4 +1,4 @@
-![galaxy.js logo](images/logo.png?raw=true)
+![galaxy.js logo](https://github.com/mozilla/galaxy.js/raw/master/images/logo.png?raw=true)
 
 A simple drop-in JavaScript API to play multiplayer, web-based games (with authentication, friends, leaderboards).
 
@@ -36,8 +36,8 @@ Alternatively, to rebuild the files and documentation just once:
 
 ## Documentation
 
-To convert to Markdown the docs that appear as comments in `galaxy.js`:
+To generate pretty docs from the code comments in [`galaxy.js`](https://github.com/mozilla/galaxy.js/blob/master/src/galaxy.js):
 
     gulp docs
 
-[Read the documentation here.](docs/docs.md)
+[Read the docs.](http://mozilla.github.io/galaxy.js/docs/)

@@ -1,3 +1,5 @@
+var exec = require('child_process').exec;
+
 var concat = require('gulp-concat');
 var gulp = require('gulp');
 var markdox = require('gulp-markdox');
@@ -21,10 +23,14 @@ gulp.task('compile', function () {
 
 
 gulp.task('docs', function () {
-  gulp.src('./src/galaxy.js')
-    .pipe(markdox())
-    .pipe(concat('docs.md'))
-    .pipe(gulp.dest('./docs'));
+  // TODO: Make a `gulp-doxx` project.
+  exec('node_modules/doxx/bin/doxx --source ./src --target ./docs --ignore components', function (err, stdout, stderr) {
+    if (stderr) {
+      return console.error(stderr);
+    }
+    console.log(stdout);
+  });
+
 });
 
 
