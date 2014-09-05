@@ -208,7 +208,7 @@ galaxy.pause = function () {
 /**
  * Posts a JSON blob to a friend of the user's who is also playing the game.
  *
- * Relays any arbitary blob (serialised JSON, object or string) from one
+ * Relays any arbitrary blob (serialised JSON, object or string) from one
  * friend to another using the Galaxy API. Using Redis PubSub, users are
  * automatically subscribed to their friend's data channels. It is the game's
  * responsibility to render the blobs as chat messages or virtual games in
@@ -243,7 +243,7 @@ galaxy.postFriend = function (friendID, blob) {
  * This method is throttled by the Galaxy API.
  *
  * @param {String} type The type of data to store (i.e., a key name).
- * @param {String} value The value of data to store (i.e., any arbitary blob).
+ * @param {String} value The value of data to store (i.e., any arbitrary blob).
  * @returns {Promise}
  * @memberOf galaxy
  */
@@ -257,13 +257,13 @@ galaxy.retrieve = function (type) {
 /**
  * Stores a JSON blob on the Galaxy API server.
  *
- * Stores any arbitary blob (JSON, object or string) in the Galaxy database.
+ * Stores any arbitrary blob (JSON, object or string) in the Galaxy database.
  * This can be anything pertaining to the game state or any user data.
  *
  * This method is throttled by the Galaxy API.
  *
  * @param {String} type The type of data to store (i.e., a key name).
- * @param {String} blob The value of data to store (i.e., any arbitary blob).
+ * @param {String} blob The value of data to store (i.e., any arbitrary blob).
  * @returns {Promise}
  * @memberOf galaxy
  */
