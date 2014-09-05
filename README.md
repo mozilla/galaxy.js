@@ -17,6 +17,10 @@ To install Node dependencies:
 
     npm install
 
+To set up symlinks for updating GitHub pages:
+
+    gulp symlink-git-hooks
+
 
 ## Development
 
@@ -41,3 +45,5 @@ To generate pretty docs from the code comments in [`galaxy.js`](https://github.c
     gulp docs
 
 [Read the docs.](http://mozilla.github.io/galaxy.js/docs/)
+
+When updating the docs, be sure to update GitHub pages. If you install the Git hooks, you're all set.

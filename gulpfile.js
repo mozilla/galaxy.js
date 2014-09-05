@@ -1,9 +1,12 @@
 var exec = require('child_process').exec;
 
+var chmod = require('gulp-chmod');
 var concat = require('gulp-concat');
+var ghPages = require('gulp-gh-pages');
 var gulp = require('gulp');
 var markdox = require('gulp-markdox');
 var rename = require('gulp-rename');
+var symlink = require('gulp-symlink');
 var uglify = require('gulp-uglify');
 
 var Duo = require('duo');
@@ -32,7 +35,6 @@ gulp.task('docs', function () {
     }
     console.log(stdout);
   });
-
 });
 
 
@@ -40,7 +42,15 @@ gulp.task('default', ['compile', 'docs']);
 
 
 gulp.task('dev', function () {
-  gulp.watch('./src/galaxy.js', ['compile', 'docs']);
+  gulp.watch('src/galaxy.js', ['compile', 'docs']);
+});
+
+
+gulp.task('symlink-git-hooks', function () {
+  return gulp.src('scripts/git_hooks/*')
+    .pipe(symlink('.git/hooks/'))
+    .pipe(chmod(755))
+    .pipe(gulp.dest('.git/hooks/'));
 });
 
 

@@ -14,7 +14,9 @@
     "gulp-concat": "^2.3.4",
     "gulp-markdox": "^0.1.0",
     "jshint": "~0.9",
-    "mocha": "^1.18.x"
+    "mocha": "^1.18.x",
+    "gulp-symlink": "^1.1.0",
+    "gulp-chmod": "^1.1.1"
   },
   "engines": {
     "node": ">=0.10.x",
