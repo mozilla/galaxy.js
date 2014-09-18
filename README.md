@@ -47,3 +47,20 @@ To generate pretty docs from the code comments in [`galaxy.js`](https://github.c
 [Read the docs.](http://mozilla.github.io/galaxy.js/docs/)
 
 When updating the docs, be sure to update GitHub pages. If you install the Git hooks, you're all set.
+
+
+## Resources
+
+### Gamepad API Spec
+* https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html
+
+### Gamepad API Articles
+* http://www.html5rocks.com/en/tutorials/doodles/gamepad/
+* http://code.tutsplus.com/tutorials/an-introduction-to-the-html5-gamepad-api--active-10686
+* http://videlais.com/2013/12/24/html5-using-gamepads-as-input/
+
+### Gamepad API Testers
+* http://www.html5rocks.com/en/tutorials/doodles/gamepad/gamepad-tester/tester.html
+* http://luser.github.io/gamepadtest/
+* http://html5gamepad.com/
+* http://kallaspriit.github.io/HTML5-JavaScript-Gamepad-Controller-Library/
