@@ -4,6 +4,8 @@ A simple drop-in JavaScript API to play multiplayer, web-based games (with authe
 
 Used in conjunction with the [Galaxy API](https://github.com/mozilla/galaxy-api).
 
+> __Note:__ This project is not ready for prime time. Not an official Mozilla project. Pre-alpha everything. Anything and everything at your own risk.
+
 
 ## Downloads
 
